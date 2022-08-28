@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colors</title>
+    <style>
+        .color {
+            --hue: 300;
+            --saturation: 100%;
+            --lightness: 50%
+            width: 100%;
+            height: 150px;
+            background-color: hsl(var(--hue), var(--saturation), var(--lightness));
+        }
+        .color:hover {
+             --lightness: 30%;
+        }
+    </style
+</head>
+<body>
+    <h2>Hue</h2>
+    <div class="color-wheel-container">
+        <div class="color"></div>
+    </div>
+    <br>
+    <br>
+
+    <h2>Saturation</h2>
+    <div class="row">
+        <div class="row-item" style="background-color: hsl(0, 0%, 50%);">0%</div>
+        <div class="row-item" style="background-color: hsl(0, 20%, 50%);">20%</div>
+        <div class="row-item" style="background-color: hsl(0, 40%, 50%);">40%</div>
+        <div class="row-item" style="background-color: hsl(0, 60%, 50%);">60%</div>
+        <div class="row-item" style="background-color: hsl(0, 80%, 50%);">80%</div>
+        <div class="row-item" style="background-color: hsl(0, 100%, 50%);">100%</div>
+    </div>
+    <br>
+    <br>
+
+    <h2>Lightness</h2>
+    <div class="row">
+        <div class="row-item" style="background-color: hsl(0, 100%, 0%);">0%</div>
+        <div class="row-item" style="background-color: hsl(0, 100%, 20%);">20%</div>
+        <div class="row-item" style="background-color: hsl(0, 100%, 40%);">40%</div>
+        <div class="row-item" style="background-color: hsl(0, 100%, 60%);">60%</div>
+        <div class="row-item" style="background-color: hsl(0, 100%, 80%);">80%</div>
+        <div class="row-item" style="background-color: hsl(0, 100%, 100%);">100%</div>
+    </div>
+    <div class="colorrgb"></div>
+    <br>
+    <br>
+    <h2>red</h2>
+    <div class="row">
+        <div class="row-item" style="background-color:rgb(150, 150, 150);">0%</div>
+        <div class="row-item" style="background-color: rgb(153, 102, 102);">20%</div>
+        <div class="row-item" style="background-color: rgb(179, 77, 77);">40%</div>
+        <div class="row-item" style="background-color: rgb(204, 51, 51);">60%</div>
+        <div class="row-item" style="background-color: rgb(230, 25, 25);">80%</div>
+        <div class="row-item" style="background-color: rgb(255, 0, 0);">100%</div>
+    </div>
+    <br>
+    <br>
+    <h2>green</h2>
+    <div class="row">
+        <div class="row-item" style="background-color: rgb(0, 255, 0);">0%</div>
+        <div class="row-item" style="background-color: rgb(0, 255, 50);">20%</div>
+        <div class="row-item" style="background-color: rgb(0, 255, 100);">40%</div>
+        <div class="row-item" style="background-color: rgb(0, 255, 150);">60%</div>
+        <div class="row-item" style="background-color: rgb(0, 255, 200);">80%</div>
+        <div class="row-item" style="background-color: rgb(0, 255, 255);">100%</div>
+    </div>
+    <h2>blue</h2>
+    <div class="row">
+        <div class="row-item" style="background-color: rgb(250, 128, 128);">0%</div>
+        <div class="row-item" style="background-color: rgb(200, 102, 140);">20%</div>
+        <div class="row-item" style="background-color: rgb(150, 77, 160);">40%</div>
+        <div class="row-item" style="background-color: rgb(100, 51, 180);">60%</div>
+        <div class="row-item" style="background-color: rgb(50, 25, 200);">80%</div>
+        <div class="row-item" style="background-color: rgb(0, 0, 255);">100%</div>
+    </div>
+    <h2>name</h2>
+    <div class="row">
+        <div class="row-item" style="background-color: red;">red</div>
+        <div class="row-item" style="background-color: green;">green</div>
+        <div class="row-item" style="background-color: blue;">blue</div>
+        <div class="row-item" style="background-color: yellow;">yellow</div>
+        <div class="row-item" style="background-color: black;">black</div>
+        <div class="row-item" style="background-color: pink;">pink</div>
+    </div>
+    <h2>hexa</h2>
+    <div class="row">
+        <div class="row-item" style="background-color: #ff0000;">ff0000</div>
+        <div class="row-item" style="background-color: #008000;">008000</div>
+        <div class="row-item" style="background-color: #0000ff;">0000ff</div>
+        <div class="row-item" style="background-color: #ffff00;">ffff00</div>
+        <div class="row-item" style="background-color: #000000;">000000</div>
+        <div class="row-item" style="background-color: #ffc0cb;">ffc0cb</div>
+    </div>
+</body>
+</html>
