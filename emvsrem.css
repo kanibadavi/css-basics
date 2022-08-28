@@ -1,0 +1,12 @@
+.parent {
+    border: 1px solid black;
+    font-size: 30px;
+}
+.icon-container {
+    margin: 2px;
+}
+
+.icon {
+    background-color: red;
+    display: inline-block;
+}
